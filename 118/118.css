@@ -1,0 +1,431 @@
+    /* css Zen Garden submission 118 - 'Some Leafs', by Michael Tupy, http://www.t-2.at/ */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+/* All associated graphics copyright 2004, Michael Tupy */
+/* Added: Sept. 2nd, 2004 */
+
+/* IMPORTANT */
+/* This design is not a template. You may not reproduce it elsewhere without the 
+   designer's written permission. However, feel free to study the CSS and use 
+   techniques you learn from it elsewhere. */
+   
+
+
+/* css zen garden - "some leafs" - michael tupy - t2 graphic design - http://www.t-2.at/ */
+
+/* this is a basic theme - works with nearly all browsers */
+/* all the text is visible and easy to change */
+/* the css code is overcoded and long - so its easier for css starters */
+
+/* tested with: */
+/* on mac osx: safari 1.2.2, camino 0.8b, mozilla 1.7, firefox 0.9, omniweb 4.5, ie 5.2.3, */
+/* on mac os9: ns 7.0.2, ie 5.1.6, */
+/* on win98:  ie 6.0.2800, ns 7.0.1, moz 1.6, firefox 0.9, opera 7.03, */
+
+
+/* ie5 win - grrr - start */
+body { 
+	font: small serif;
+  	margin: 0px; 
+	padding: 0px; 
+	line-height: 14px;
+	color: #000;
+	font-size: x-small;
+	/* voice-family: "\"}\""; 
+	voice-family: inherit; */
+	font-size: small;
+	text-align: center;
+    }
+/* ie5 win - grrr - end */
+ 
+/* opera - grrr - start */
+html>body {
+	font-size: small;
+	}
+/* opera - grrr - end */
+
+
+/* start of the real css */
+
+/* basic elements */
+body { 
+	color: #444; 
+	background-color: #edf6e3;
+ 	background-image: url(bkpic.jpg);
+	background-position: top center;
+	background-repeat: repeat-y;
+	font-size: 11px; 
+	line-height: 14px;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left;
+    margin: 0px; 
+	padding: 0px;
+	}
+p {
+	font-size: 11px; 
+	line-height: 14px;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left; 
+	margin: 0px; 
+	padding: 0px;
+	}
+h1, h2, h3 {
+	font-size: 11px; 
+	line-height: 14px;
+	font-weight: bold; 
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left; 
+	margin: 0px; 
+	padding: 0px;
+	}
+	
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #000000;
+    text-shadow: 1px 1px 5px white;
+	}
+a:visited, 
+a:visited:hover { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #000000;
+	}
+a:hover, 
+a:active { 
+	text-decoration: underline; 
+	color: #2684d2;
+	}
+abbr { 
+	font-weight: normal; 
+	font-style: normal;
+	border: 0;
+	}
+
+/* major divs */
+.page-wrapper { 
+	width: 700px; 
+	position: relative;   
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+	}
+
+.intro {
+ 	width: 450px;
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+	}
+	
+.supporting {
+ 	width: 450px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 0px 10px;
+	}
+	
+.sidebar {
+  position: absolute;
+  top: 255px;
+  left: 0px;
+ 	width: 220px;
+	margin: 0px 0px 0px 482px;
+	padding: 0px 0px 0px 0px;
+	}
+
+/* minor divs */
+header {
+ 	width: 700px;
+ 	height: 20px; /* strange but ie6 needs this */
+ 	background-image: url(blue_tulip.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	border-top: 0px;    
+	border-right: 1px solid #aaa;    
+	border-bottom: 1px solid #aaa;    
+	border-left: 1px solid #aaa;    
+	margin: 0px 0px 0px 0px; 
+	padding: 224px 0px 0px 0px;
+	}
+	
+header h1 {
+ 	width: 600px;
+	color: #060606;
+	font-size: 40px; 
+	line-height: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: -190px 50px 0px 280px;
+	padding: 0px 0px 0px 0px;
+    text-shadow: 1px 1px 5px rgb(38, 166, 225);
+	}
+	
+header h2 {
+ 	width: 600px;
+	color: #0c0909;
+	font-size: 15px; 
+	line-height: 16px;
+	font-weight: normal;
+	padding: 0px 0px 0px 3px;
+	text-transform: uppercase;
+	margin: 3px 0px 0px 350px;
+	padding: 0px 0px 10px 4px;
+    text-shadow: 1px 1px 5px rgb(38, 166, 225);
+	}
+		
+.summary {
+ 	width: 450px;
+ 	background-image: url(skyblue.jpg);
+	background-position: top center;
+	background-repeat: repeat;
+	background-color: #040503;
+	border: 1px solid #0a0808;    
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+	}
+
+.preamble {
+ 	width: 450px;
+	border: 1px solid #000000;    
+ 	background-image: url(leaf_09d.gif);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 20px 10px;
+	}
+	
+.explanation,
+.participation,
+.benefits,
+.requirements {
+ 	width: 450px;
+	border: 1px solid #010101;    
+ 	background-image: url(leaf_09d.gif);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: #fff;	
+	margin: 10px -10px 0px -10px;
+	padding: 10px 10px 20px 10px;
+	}
+	
+footer {
+ 	width: 450px;
+	border: 1px solid #020202;    
+ 	background-image: url(bluesky.jpg);
+	background-position: center center;
+	background-repeat: repeat;
+	background-color: #000000;	
+	margin: 10px -10px 20px -10px;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	}
+	
+.explanation p,
+.participation p,
+.benefits p,
+.requirements p,
+.preamble p {
+	padding-bottom: 8px;
+	text-align: justify;
+	}
+
+.preamble h3,
+.supporting h3 {
+	color: #000000;
+	background-color: #ddd;
+ 	background-image: url(skyblue.jpg);
+	background-position: bottom center;
+	background-repeat: repeat;
+	font-size: 11px; 
+	line-height: 16px;
+	text-transform: uppercase;
+	margin: -10px -10px 4px -10px;
+	padding: 4px 4px 4px 10px;
+    text-shadow: 1px 1px 5px white;
+	}
+	
+.summary p:first-child { 
+	color: #fff ! important;
+	font-size: 10px ! important;
+	line-height: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0px 50px 0px 0px;
+	padding: 0px 0px 10px 0px;
+    text-shadow: 1px 1px 5px black;
+	}
+	
+.summary p:last-child { 
+	color: #fff ! important;
+	font-size: 10px ! important;
+	line-height: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: left; 
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+    text-shadow: 1px 1px 5px black;
+	}
+	
+.sidebar ul {
+	border-top: 1px dotted #000000;
+	margin: 5px 5px 0px 5px; 
+	padding: 0px 0px 0px 0px;
+	}
+	
+.sidebar li {
+	display: block;
+	list-style-type: none;
+	color: #000000;
+	background-color: #f8f8f8;
+	font-size: 11px; 
+	line-height: 14px;
+	font-weight: normal; 
+	font-style: italic;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left; 
+	border-bottom: 1px dotted #ccc;
+	margin: 0px 0px 0px 0px; 
+	padding: 3px 5px 3px 5px;
+	}
+	
+.sidebar li a:link,
+.sidebar li a:visited, 
+.sidebar li a:visited:hover,
+.sidebar li a:hover, 
+.sidebar li a:active {
+	font-style: normal;
+	padding-right: 5px;
+	}
+	
+a.designer-name { 
+	color: #000000 ! important;
+	font-weight: normal ! important;
+	font-style: italic ! important;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 14px 0px 0px;
+	}
+
+.sidebar h3 {
+	color: #000000;
+	background-color: #ddd;
+ 	background-image: url(skyblue.jpg);
+	background-position: center right;
+	background-repeat: repeat-x;
+	font-size: 11px; 
+	line-height: 16px;
+	font-weight: bold; 
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-transform: uppercase;
+	text-align: left; 
+	border-bottom: 1px solid #050404;
+	margin: 0px 0px 0px 0px; 
+	padding: 3px 5px 3px 5px;
+	}
+	
+.design-selection,
+#lfavorites,
+.design-archives,
+.zen-resources {
+	background-image: url(leaf_09a.gif);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border: 1px solid #000000;    
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 30px 0px;
+	}
+	
+/* hovers */
+	
+.preamble:hover {
+ 	background-image: url(leaf_09f.gif);
+	}
+	
+.sidebar li:hover {
+	background-color: #1fb4de;
+	}
+	
+.zen-resources:hover {
+	background-image: url(leaf_09b.gif);
+	}
+
+/* Container for flower + butterfly */
+.scene{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px; /* optional spacing */
+}
+
+/* Flower stays at the bottom */
+.flower{
+  position: absolute;
+  bottom: 2;     /* stick to bottom of container */
+  left: 40%;     /* center horizontally */
+  transform: translateX(-50%);
+  width: 200px;
+  z-index: 1;    /* below the butterfly */
+}
+
+/* Butterfly flaps above the flower */
+.butterfly{
+  position: absolute;
+  bottom: 80px;  /* adjust so it’s above the flower */
+  left: 30%;     
+  transform: translateX(-50%);
+  width: 170px;
+  z-index: 2;    /* above the flower */
+  animation: flap 0.4s ease-in-out infinite;
+}
+
+/* Wing flapping effect */
+@keyframes flap{
+  0%{ transform: translateX(-50%) scaleX(1) rotate(0deg); }
+  50%{ transform: translateX(-50%) scaleX(0.85) rotate(2deg); }
+  100%{ transform: translateX(-50%) scaleX(1) rotate(0deg); }
+}
+
+.fly{
+  position: absolute;
+  bottom: 80px;  /* adjust so it’s above the flower */
+  top: 120px;
+  right: 140px;     
+  transform: translateX(-50%);
+  width: 170px;
+  z-index: 2;    /* above the flower */
+  animation: flap 0.4s ease-in-out infinite;
+}
+
+/* Wing flapping effect */
+@keyframes flap{
+  0%{ transform: translateX(-50%) scaleX(1) rotate(0deg); }
+  50%{ transform: translateX(-50%) scaleX(0.85) rotate(2deg); }
+  100%{ transform: translateX(-50%) scaleX(1) rotate(0deg); }
+}
+
+/* Container for vertical line */
+.butterfly-column {
+  display: flex;
+  flex-direction: column;
+  gap: -20px;
+  position: absolute;           /* Changed to fixed - stays at top of viewport */
+  top: -900px;                  /* Now at very top of screen */
+  left: 178px;
+  align-items: flex-start;   /* Keep left alignment (choose one align-items) */
+  z-index: 1000;             /* Ensures it stays above other content */
+}
+/* Butterfly GIF size */
+.bfly {
+  width: 120px;                /* adjust size here */
+}
+
+.butterflies-column {
+  display: flex;
+  flex-direction: column;
+  gap: -20px;
+  position: absolute;           /* Changed to fixed - stays at top of viewport */
+  top: -900px;                  /* Now at very top of screen */
+  right: 755px;
+  align-items: flex-start;   /* Keep left alignment (choose one align-items) */
+  z-index: 1000;             /* Ensures it stays above other content */
+}
